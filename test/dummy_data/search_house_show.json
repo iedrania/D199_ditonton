@@ -1,0 +1,429 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/r0Q6eeN9L1ORL9QsV0Sg8ZV3vnv.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 1408,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "House",
+      "overview": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.",
+      "popularity": 571.798,
+      "poster_path": "/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
+      "first_air_date": "2004-11-16",
+      "name": "House",
+      "vote_average": 8.594,
+      "vote_count": 6398
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6nhNTlSZvqbEifWtBmydqy34y3N.jpg",
+      "genre_ids": [
+        9648,
+        10751,
+        18
+      ],
+      "id": 31372,
+      "origin_country": [
+        "BE",
+        "DE"
+      ],
+      "original_language": "de",
+      "original_name": "Das Haus Anubis",
+      "overview": "Das Haus Anubis is a children's television series produced jointly by Belgian broadcaster Studio 100 and Nickelodeon and the first remake of Het Huis Anubis aired in The Netherlands and Belgium. Another English remake called House of Anubis aired in 2011. With a seven-figure production budget, it is one of Nickelodeon's largest in-house productions, and the first German daily soap opera specifically aimed at children. From 29 September 2009 to 4 May 2012, the show had been running both on children's channel Nick, and season 1 on music channel VIVA. Das Haus Anubis is aimed at children twelve years old and above, and is the German remake of the successful Dutch television programme, Het Huis Anubis. This 2006/2009 series was one of the most successful children's series in the Benelux countries.",
+      "popularity": 16.406,
+      "poster_path": "/9BkiVZi40M9vt7qLA2tnd4q3iu7.jpg",
+      "first_air_date": "2009-09-29",
+      "name": "House of Anubis",
+      "vote_average": 7.0,
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4bzSEBjVb3QwPaJ39Rp2gmH9Bug.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 3690,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "House of Payne",
+      "overview": "The show revolved around a multi-generational family living under one roof in Atlanta led by patriarch Curtis Payne and his wife Ella.",
+      "popularity": 198.736,
+      "poster_path": "/2NdUdJnZnwI6skvm6OXWrK2D42U.jpg",
+      "first_air_date": "2007-06-06",
+      "name": "House of Payne",
+      "vote_average": 7.52,
+      "vote_count": 50
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eeLNM7MMyXpwq5G11kBhAcbkikK.jpg",
+      "genre_ids": [
+        10762,
+        9648,
+        10766
+      ],
+      "id": 19716,
+      "origin_country": [
+        "BE",
+        "NL"
+      ],
+      "original_language": "nl",
+      "original_name": "Het Huis Anubis",
+      "overview": "A group of boarding school students embark on the search for a treasure when one of them discovers a long hidden secret in the attic.",
+      "popularity": 49.404,
+      "poster_path": "/huAHHfsAKoc1pWjb5Qll7WPxJzJ.jpg",
+      "first_air_date": "2006-09-26",
+      "name": "House of Anubis (NL)",
+      "vote_average": 8.0,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "id": 94997,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "House of the Dragon",
+      "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+      "popularity": 1402.636,
+      "poster_path": "/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+      "first_air_date": "2022-08-21",
+      "name": "House of the Dragon",
+      "vote_average": 8.397,
+      "vote_count": 4774
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6MWmIGqZpyPO5fjBFII5gmBYsFX.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 2394,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "This Old House",
+      "overview": "TV's original home-improvement show, following one whole-house renovation over several episodes.",
+      "popularity": 297.265,
+      "poster_path": "/ecAOX4esywAXLF5I4X2gaTmhmAG.jpg",
+      "first_air_date": "1979-01-01",
+      "name": "This Old House",
+      "vote_average": 5.15,
+      "vote_count": 30
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pe0CzdQrhIuBOCVYuqUu7UPyFiG.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 250850,
+      "origin_country": [
+        "TH"
+      ],
+      "original_language": "th",
+      "original_name": "สืบสันดาน",
+      "overview": "A family enters a power struggle following the death of their patriarch, who leaves behind his diamond empire — and the housekeeper he recently married.",
+      "popularity": 128.365,
+      "poster_path": "/bJnrzJWTFXUN64EUiFzHCMj9SfW.jpg",
+      "first_air_date": "2024-07-18",
+      "name": "Master of the House",
+      "vote_average": 7.033,
+      "vote_count": 15
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nOI4Pv6LGpxEdvwRAHJR8aIcbgf.jpg",
+      "genre_ids": [
+        18,
+        10759
+      ],
+      "id": 210098,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "忍びの家 House of Ninjas",
+      "overview": "Years after retiring from their formidable ninja lives, a dysfunctional family must return to shadowy missions to counteract a string of looming threats.",
+      "popularity": 57.077,
+      "poster_path": "/AoEuSoSnwSSnX1YzykDdOiKAZNB.jpg",
+      "first_air_date": "2024-02-15",
+      "name": "House of Ninjas",
+      "vote_average": 7.139,
+      "vote_count": 101
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zoAxfThy7ntyCutBeNgdaKhRoSX.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1425,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "House of Cards",
+      "overview": "Set in present day Washington, D.C., House of Cards is the story of Frank Underwood, a ruthless and cunning politician, and his wife Claire who will stop at nothing to conquer everything. This wicked political drama penetrates the shadowy world of greed, sex and corruption in modern D.C.",
+      "popularity": 104.193,
+      "poster_path": "/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg",
+      "first_air_date": "2013-02-01",
+      "name": "House of Cards",
+      "vote_average": 8.0,
+      "vote_count": 2646
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "id": 35168,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "흥부네 박터졌네",
+      "overview": "",
+      "popularity": 91.083,
+      "poster_path": null,
+      "first_air_date": "2003-10-27",
+      "name": "A Problem at My Younger Brother's House",
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mkxcigG5i0vKc3kWddJxYB5vMoq.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 103960,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Richard Osman's House of Games",
+      "overview": "Each week a group of four famous faces go toe to toe in testing their general knowledge skills in a variety of entertaining games.",
+      "popularity": 40.215,
+      "poster_path": "/g1D2iBtf39IdPGBNB6Nsy6oJRXr.jpg",
+      "first_air_date": "2017-09-04",
+      "name": "Richard Osman's House of Games",
+      "vote_average": 6.0,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yLKNVzlKPCoPeVE8JX4AypYq8Hf.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 103373,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "家政夫のミタゾノ",
+      "overview": "Kaoru Mitazono (Masahiro Matsuoka) is a talented housekeeper with an usual secret. Kaoru is actually a guy! Besides cooking, cleaning and babysitting Kaoru Mitazono has the unusual habit of discovering secrets held within the family of her employers.",
+      "popularity": 81.632,
+      "poster_path": "/kleG5m0C2KPyPbw5K7MK4tMTWWV.jpg",
+      "first_air_date": "2016-10-21",
+      "name": "Mr. Housekeeper, Mitazono",
+      "vote_average": 7.333,
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yUdGrhwXXIIMhj4df9SuTWTXspg.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 4643,
+      "origin_country": [
+        "HK"
+      ],
+      "original_language": "cn",
+      "original_name": "高朋滿座",
+      "overview": "Welcome to the House is a TVB modern sitcom series broadcast from April 2006 to March 2007.\n\nThe series surrounded the day-to-day lives of the Ko family.",
+      "popularity": 138.478,
+      "poster_path": "/sLsaxED5dHQ4FSzIqN8xJgSAuF9.jpg",
+      "first_air_date": "2006-04-10",
+      "name": "Welcome to the House",
+      "vote_average": 10.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sCyzwACda02TQuaUKhk67ccUm2S.jpg",
+      "genre_ids": [
+        10751,
+        9648,
+        10765
+      ],
+      "id": 35016,
+      "origin_country": [
+        "US",
+        "BE",
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "House of Anubis",
+      "overview": "Strange things are happening at an English boarding school called House of Anubis. Popular student Joy goes missing, the school's cranky caretaker has a creepy stuffed crow and the school's attic may be haunted. When recent American transplant Nina gets thrust into the school during this time, she decides to investigate along with her new friend, Fabian, and housemates.",
+      "popularity": 45.412,
+      "poster_path": "/llPkPieIBfVXKIklkeP5VddpK8b.jpg",
+      "first_air_date": "2011-01-01",
+      "name": "House of Anubis",
+      "vote_average": 8.107,
+      "vote_count": 262
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/e7YjhjWFp9gmYvET6oZZ9Auod5h.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 133359,
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "hi",
+      "original_name": "House of Secrets: The Burari Deaths",
+      "overview": "Suicide, murder... or something else? This docuseries examines chilling truths and theories around the deaths of 11 members of a Delhi family.",
+      "popularity": 16.943,
+      "poster_path": "/cao9YvzYZoP6ms5OZGS4xsq0y00.jpg",
+      "first_air_date": "2021-10-08",
+      "name": "House of Secrets: The Burari Deaths",
+      "vote_average": 7.078,
+      "vote_count": 51
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vbz8B3pIrGjWKY6Y3OhUDVugHz8.jpg",
+      "genre_ids": [
+        9648,
+        18,
+        35
+      ],
+      "id": 693,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Desperate Housewives",
+      "overview": "Looking down on her friends and family isn't a way of life for Mary Alice Young... it's a way of death. One day, in her perfect house, in the loveliest of suburbs, Mary Alice ended it all. Now she's taking us into the lives of her family, friends and neighbors, commenting from her elevated P.O.V.",
+      "popularity": 341.334,
+      "poster_path": "/fToBWkwVNjYzH6mjrEq5JDYRoLx.jpg",
+      "first_air_date": "2004-10-03",
+      "name": "Desperate Housewives",
+      "vote_average": 7.927,
+      "vote_count": 1811
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/12Xbio78KHTn5qO94XlE6s8gtQb.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 18204,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Real Housewives of New Jersey",
+      "overview": "We head to the Garden State for this installment of the “Housewives” franchise, focusing on affluent Jersey girls who are more than just friends. The cast has changed through the seasons but the featured housewives through the years have included Caroline Manzo, a devoted wife and mother of three adult children; former Las Vegas cosmetologist Jacqueline Laurita, who is now a full-time housewife; and Teresa Giudice, a mother of four who runs her household without help from a nanny or personal assistant.",
+      "popularity": 60.268,
+      "poster_path": "/n3ZNgp7IpQOUXoGoV8svZccZeoP.jpg",
+      "first_air_date": "2009-05-12",
+      "name": "The Real Housewives of New Jersey",
+      "vote_average": 6.3,
+      "vote_count": 57
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vhEtBjbxLMlPTPCS6TGk0WLo9C8.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 132712,
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Secret Story: La casa de los secretos",
+      "overview": "",
+      "popularity": 42.886,
+      "poster_path": "/gVsUmlqukB6X29G7fS9fZBWxuHu.jpg",
+      "first_air_date": "2021-09-09",
+      "name": "Secret Story: The House of Secrets",
+      "vote_average": 5.7,
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/reKIbMr7sgC4pHRcApJS7PAO1c0.jpg",
+      "genre_ids": [
+        16,
+        9648
+      ],
+      "id": 111576,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "シャドーハウス",
+      "overview": "A faceless clan lives in a large mansion, masquerading as nobles. Their caretakers are living dolls who spend their days cleaning up the dirt the tenants leave behind. But there’s a deeper mystery at play… and the secret of the house will be unveiled.",
+      "popularity": 120.914,
+      "poster_path": "/lyB5T6lWA4yCPZxolZ2KuVm8YV3.jpg",
+      "first_air_date": "2021-04-11",
+      "name": "Shadows House",
+      "vote_average": 8.2,
+      "vote_count": 80
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2RFiVo2zxNg3m73X0gpXHU4flmh.jpg",
+      "genre_ids": [
+        10751,
+        10762
+      ],
+      "id": 40755,
+      "origin_country": [
+        "DE"
+      ],
+      "original_language": "de",
+      "original_name": "Tiere bis unters Dach",
+      "overview": "With a woof-woof here and a baaa-baaa there and a quack-quack, oink-oink everywhere, there's always some furry or feathered creature demanding attention from the Hansens. It's partly because Dr. Philipp Hansen is a veterinarian who's just opened a practice in the big old villa he's moved into with his family. But it's mostly because of ten-year-old daughter Greta, who never saw an animal she didn't want to adopt.",
+      "popularity": 53.587,
+      "poster_path": "/hDaNQY9uG8iYGSNlWv3c8pGNaF8.jpg",
+      "first_air_date": "2010-01-16",
+      "name": "A Houseful of Animals",
+      "vote_average": 7.5,
+      "vote_count": 1
+    }
+  ],
+  "total_pages": 50,
+  "total_results": 991
+}

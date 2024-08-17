@@ -2,13 +2,20 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ditonton/common/constants.dart';
 import 'package:ditonton/domain/entities/movie.dart';
 import 'package:ditonton/presentation/pages/about_page.dart';
+import 'package:ditonton/presentation/pages/airing_shows_page.dart';
 import 'package:ditonton/presentation/pages/movie_detail_page.dart';
 import 'package:ditonton/presentation/pages/popular_movies_page.dart';
+import 'package:ditonton/presentation/pages/popular_shows_page.dart';
 import 'package:ditonton/presentation/pages/search_page.dart';
+import 'package:ditonton/presentation/pages/search_show_page.dart';
+import 'package:ditonton/presentation/pages/show_detail_page.dart';
 import 'package:ditonton/presentation/pages/top_rated_movies_page.dart';
+import 'package:ditonton/presentation/pages/top_rated_shows_page.dart';
 import 'package:ditonton/presentation/pages/watchlist_movies_page.dart';
+import 'package:ditonton/presentation/pages/watchlist_shows_page.dart';
 import 'package:ditonton/presentation/provider/movie_list_notifier.dart';
 import 'package:ditonton/common/state_enum.dart';
+import 'package:ditonton/presentation/provider/show_list_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -21,11 +28,17 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
   @override
   void initState() {
     super.initState();
-    Future.microtask(
-        () => Provider.of<MovieListNotifier>(context, listen: false)
-          ..fetchNowPlayingMovies()
-          ..fetchPopularMovies()
-          ..fetchTopRatedMovies());
+    Future.microtask(() {
+      Provider.of<MovieListNotifier>(context, listen: false)
+        ..fetchNowPlayingMovies()
+        ..fetchPopularMovies()
+        ..fetchTopRatedMovies();
+
+      Provider.of<ShowListNotifier>(context, listen: false)
+        ..fetchNowAiringShows()
+        ..fetchPopularShows()
+        ..fetchTopRatedShows();
+    });
   }
 
   @override
@@ -53,6 +66,13 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
               title: Text('Watchlist'),
               onTap: () {
                 Navigator.pushNamed(context, WatchlistMoviesPage.ROUTE_NAME);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.save_alt),
+              title: Text('Series Watchlist'),
+              onTap: () {
+                Navigator.pushNamed(context, WatchlistShowsPage.ROUTE_NAME);
               },
             ),
             ListTile(
@@ -132,6 +152,74 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                   return Text('Failed');
                 }
               }),
+              SizedBox(height: 32),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'TV Series',
+                    style: kHeading5,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, SearchShowPage.ROUTE_NAME);
+                    },
+                    icon: Icon(Icons.search),
+                  ),
+                ],
+              ),
+              SizedBox(height: 16),
+              _buildSubHeading(
+                title: 'Airing Today',
+                onTap: () =>
+                    Navigator.pushNamed(context, AiringShowsPage.ROUTE_NAME),
+              ),
+              Consumer<ShowListNotifier>(builder: (context, data, child) {
+                final state = data.nowAiringState;
+                if (state == RequestState.Loading) {
+                  return Center(
+                    child: CircularProgressIndicator(),
+                  );
+                } else if (state == RequestState.Loaded) {
+                  return ShowList(data.nowAiringShows);
+                } else {
+                  return Text('Failed');
+                }
+              }),
+              _buildSubHeading(
+                title: 'Popular',
+                onTap: () =>
+                    Navigator.pushNamed(context, PopularShowsPage.ROUTE_NAME),
+              ),
+              Consumer<ShowListNotifier>(builder: (context, data, child) {
+                final state = data.popularShowsState;
+                if (state == RequestState.Loading) {
+                  return Center(
+                    child: CircularProgressIndicator(),
+                  );
+                } else if (state == RequestState.Loaded) {
+                  return ShowList(data.popularShows);
+                } else {
+                  return Text('Failed');
+                }
+              }),
+              _buildSubHeading(
+                title: 'Top Rated',
+                onTap: () =>
+                    Navigator.pushNamed(context, TopRatedShowsPage.ROUTE_NAME),
+              ),
+              Consumer<ShowListNotifier>(builder: (context, data, child) {
+                final state = data.topRatedShowsState;
+                if (state == RequestState.Loading) {
+                  return Center(
+                    child: CircularProgressIndicator(),
+                  );
+                } else if (state == RequestState.Loaded) {
+                  return ShowList(data.topRatedShows);
+                } else {
+                  return Text('Failed');
+                }
+              }),
             ],
           ),
         ),
@@ -198,6 +286,48 @@ class MovieList extends StatelessWidget {
           );
         },
         itemCount: movies.length,
+      ),
+    );
+  }
+}
+
+class ShowList extends StatelessWidget {
+  final List<Movie> shows;
+
+  ShowList(this.shows);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 200,
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemBuilder: (context, index) {
+          final show = shows[index];
+          return Container(
+            padding: const EdgeInsets.all(8),
+            child: InkWell(
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  ShowDetailPage.ROUTE_NAME,
+                  arguments: show.id,
+                );
+              },
+              child: ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(16)),
+                child: CachedNetworkImage(
+                  imageUrl: '$BASE_IMAGE_URL${show.posterPath}',
+                  placeholder: (context, url) => Center(
+                    child: CircularProgressIndicator(),
+                  ),
+                  errorWidget: (context, url, error) => Icon(Icons.error),
+                ),
+              ),
+            ),
+          );
+        },
+        itemCount: shows.length,
       ),
     );
   }

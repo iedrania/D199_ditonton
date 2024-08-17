@@ -1,0 +1,420 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/uCY1j1YqfDWRbbS7hJwd9szX1sJ.jpg",
+      "genre_ids": [
+        10766,
+        18,
+        35
+      ],
+      "id": 237480,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "No Rancho Fundo",
+      "overview": "",
+      "popularity": 3404.805,
+      "poster_path": "/eONkvEahSQJan1HTzWJKjvaMe29.jpg",
+      "first_air_date": "2024-04-15",
+      "name": "No Rancho Fundo",
+      "vote_average": 4.912,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nCXV9ARvIE2Yc9tLg6pBwpPpPld.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 8892,
+      "origin_country": [
+        "PH"
+      ],
+      "original_language": "tl",
+      "original_name": "Pinoy Big Brother",
+      "overview": "The Philippine adaptation of the reality game show \"Big Brother\" features Filipino housemates live together, share their stories and build meaningful relationships as they do tasks and challenges supervised by Big Brother. Every week a nomination is done, and the public decides who gets evicted and eventually become the Big Winner of the program.",
+      "popularity": 2202.407,
+      "poster_path": "/zUva0cs2SOjoxFPpwINbpevzoax.jpg",
+      "first_air_date": "2005-08-21",
+      "name": "Pinoy Big Brother",
+      "vote_average": 3.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bEKRyT7WN5TjFKv0JTWI2cyNlak.jpg",
+      "genre_ids": [
+        10766,
+        18
+      ],
+      "id": 223365,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Renascer",
+      "overview": "After making a pact with Jequitibá, José Inocêncio becomes a mythical figure, known as the most successful cocoa farmer in the region. While still young, he wins the heart of Maria Santa. Their intense passion results in four children: José Augusto, José Bento, José Venâncio, and the youngest, João Pedro, who never had the opportunity to know his mother, as she dies while giving birth to him. This tragedy fuels José Inocêncio’s anger, blaming João Pedro for the loss of his great love. Throughout their lives, indifference and resentment mark the relationship between the father and his youngest son. As if the past weren’t enough, years later, the arrival of the mysterious Mariana puts all these emotions to the test when both father and son fall in love with the same woman. This situation reawakens feelings that were either dormant or previously unknown to them.",
+      "popularity": 2084.93,
+      "poster_path": "/kUWvvMkNIf21UUDmHjYw55v6o7C.jpg",
+      "first_air_date": "2024-01-22",
+      "name": "Rebirth",
+      "vote_average": 7.306,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hpZ5VJP1MvQjuFUMORuAoDFAH30.jpg",
+      "genre_ids": [
+        35,
+        10766,
+        10759
+      ],
+      "id": 222289,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Família é Tudo",
+      "overview": "Five half-siblings – Venus, Andromeda, Jupiter, Electra, and Plutao – share the same father, Pedro. Separated by their respective mothers after Pedro's death, the quintet have had few social and intimate interactions since. Years later, now adults, they reunite when their millionaire grandmother disappears on a cruise and is presumed dead. To earn their inheritance, they will have to live and work together for a year in an attempt to bring the family business back to its peak. If they don't succeed, the inheritance will go to their cousin, Hans, who will do anything to get the money from his aunt.",
+      "popularity": 2066.985,
+      "poster_path": "/tDbJuSfVhf3ZnxiJrXlXEALyAz5.jpg",
+      "first_air_date": "2024-03-04",
+      "name": "Família é Tudo",
+      "vote_average": 6.071,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bPnzBs4Ka1tZFCsZF3cPkzNjiLC.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 122653,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Gutfeld!",
+      "overview": "Greg Gutfeld examines the news of the day through a satiric lens fused with pop culture.",
+      "popularity": 1761.103,
+      "poster_path": "/9zLuN3MfvTcABYYNJq5PkIG81S5.jpg",
+      "first_air_date": "2021-04-05",
+      "name": "Gutfeld!",
+      "vote_average": 6.0,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fHpxJBhGm9XJsESV6kDgSqsPwXf.jpg",
+      "genre_ids": [
+        9648
+      ],
+      "id": 251599,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "孤舟",
+      "overview": "Gu Yizhong, a scion of the Gu family in Suzhou, returns to China after completing his studies in the Architecture Department at the University of Pennsylvania. When the war breaks out, a failed rescue mission to assist his underground party girlfriend exposes all the contacts of the Suzhou underground organization. Falsely framed and accused by the Japanese collaborators, Gu Yizhong is mistaken for a traitor within the party. Unable to prove his innocence, he takes the initiative to infiltrate the Japanese collaborators and eventually becomes an undercover agent in the Suzhou special operations station of the Communist Party.",
+      "popularity": 1737.113,
+      "poster_path": "/1Eg9oZMPAr08CLstTnXvJ98S6iZ.jpg",
+      "first_air_date": "2024-08-06",
+      "name": "A Lonely Hero's Journey",
+      "vote_average": 9.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u4Lh4viuwHGVLFyUnY7YvwOTwl0.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 252373,
+      "origin_country": [
+        "PT"
+      ],
+      "original_language": "pt",
+      "original_name": "A Promessa",
+      "overview": "",
+      "popularity": 1527.436,
+      "poster_path": "/uptgxt2apx5wwWItQzqL0HwhjZC.jpg",
+      "first_air_date": "2024-06-18",
+      "name": "A Promessa",
+      "vote_average": 8.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u1bu08YpYdvR8C3WLFz4TjsE0Dt.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 258640,
+      "origin_country": [
+        "PT"
+      ],
+      "original_language": "pt",
+      "original_name": "Dilema",
+      "overview": "A holiday home, a team game and daily dilemmas are the pieces of this game. Fourteen contestants, divided into two teams, will experience participating in the most distorted reality show ever. For 8 weeks they will be faced with impossible dilemmas. Will they have the courage to make the necessary decisions? Will they choose their personal interest or will they sacrifice themselves for the good of the team? Your choices will have consequences and your objective will be to earn as much money as possible. Every week, two competitors will be nominated by their teammates, face public voting and one of them will have to leave the game. Only the team with the most money will compete in the grand final, where only one will be the big winner.",
+      "popularity": 1394.635,
+      "poster_path": "/rlH5cg2BbBXEBCdDwxzPRN6A0Wa.jpg",
+      "first_air_date": "2024-07-07",
+      "name": "Dilema",
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pT18IZPkFD1upDXYYPIVNWAnMjf.jpg",
+      "genre_ids": [],
+      "id": 252879,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Overwatch Champions Series - Asia",
+      "overview": "The Overwatch Champions Series is the premier Overwatch circuit, replacing the Overwatch League.",
+      "popularity": 604.997,
+      "poster_path": "/j0UxE9eijDuKm4qfA4aU3dISw3Q.jpg",
+      "first_air_date": "2024-02-26",
+      "name": "Overwatch Champions Series - Asia",
+      "vote_average": 8.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/n9u72dPMB1e3IpgN3LHRaons6gw.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 79855,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Questions pour un champion",
+      "overview": "Samuel Etienne hosts this emblematic game, which sees four candidates compete each evening around questions of general culture.",
+      "popularity": 491.526,
+      "poster_path": "/tKb3dm32wUDQmWNfygbvTkYKobb.jpg",
+      "first_air_date": "",
+      "name": "Questions pour un champion",
+      "vote_average": 4.3,
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hH4YaZuH89Hlyz0DEkf362Mj8gU.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 65701,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Good Mythical Morning",
+      "overview": "Two \"Internetainers\" (Rhett \u0026 Link) go far out and do the weirdest  things, giving you a daily dose of casual comedy every Monday-Friday.",
+      "popularity": 460.438,
+      "poster_path": "/2Fja87aTeuXxTEI1MH2IuHHSsLq.jpg",
+      "first_air_date": "2012-01-09",
+      "name": "Good Mythical Morning",
+      "vote_average": 6.706,
+      "vote_count": 63
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jCWMWclOVImgkpZgryFd6AvYIu5.jpg",
+      "genre_ids": [
+        16
+      ],
+      "id": 79481,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "斗破苍穹",
+      "overview": "In a land where no magic is present. A land where the strong make the rules and weak have to obey. A land filled with alluring treasures and beauty, yet also filled with unforeseen danger. Three years ago, Xiao Yan, who had shown talents none had seen in decades, suddenly lost everything. His powers, his reputation, and his promise to his mother. What sorcery has caused him to lose all of his powers? And why has his fiancee suddenly shown up?",
+      "popularity": 424.036,
+      "poster_path": "/a9bJPlezCXF6u0siDxf7cZaSXaJ.jpg",
+      "first_air_date": "2017-01-07",
+      "name": "Battle Through the Heavens",
+      "vote_average": 8.7,
+      "vote_count": 39
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8hpED8ax6b5ay5I0hLqaqgEcbOm.jpg",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "id": 237952,
+      "origin_country": [
+        "TH"
+      ],
+      "original_language": "th",
+      "original_name": "ดวงใจเทวพรหม",
+      "overview": "Dhevaprom is a Thai lakorn based on the novel of the same name and written by the same writers as its preceding story ... The Five Brothers series, that aired in 2013. Dhevaprom consists of Laorchan, Kwanruetai, Jaiphisut, Dujapsorn and Porncheewan.",
+      "popularity": 405.465,
+      "poster_path": "/wtTjfnK4OYphmzzRuTXIo4owoHz.jpg",
+      "first_air_date": "2024-03-08",
+      "name": "Dhevaprom",
+      "vote_average": 7.6,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ySzItvbTqSJ3feKiueMFwAlH17y.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 131040,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "披荆斩棘",
+      "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training \u0026 subject assessment, the winning team will finally be born and make their debut in a group.",
+      "popularity": 363.5,
+      "poster_path": "/ngDrLkiINS44MwlBRdPmnSmSduY.jpg",
+      "first_air_date": "2021-08-12",
+      "name": "Call Me By Fire",
+      "vote_average": 8.4,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2WBO3C7CjsOTT5wgi9Inn5iQhVv.jpg",
+      "genre_ids": [
+        16,
+        35,
+        18,
+        9648
+      ],
+      "id": 46195,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "化物語",
+      "overview": "Although there are still traces of the brief period he became a vampire, third-year high school student Koyomi Araragi is human again. He happens upon others with their own supernatural problems and finds that he can empathize. Koyomi becomes involved in their lives, seeking to help them and occasionally asking for advice from Meme Oshino, the homeless man who helped him become human again.",
+      "popularity": 353.199,
+      "poster_path": "/snwMpEzwQAi7QShO0pYrs6lNygh.jpg",
+      "first_air_date": "2009-07-03",
+      "name": "Monogatari",
+      "vote_average": 8.1,
+      "vote_count": 450
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aCiXh5QX6bg0BtpFEBXKaZYScB4.jpg",
+      "genre_ids": [
+        10763,
+        10764,
+        99
+      ],
+      "id": 203599,
+      "origin_country": [
+        "HK"
+      ],
+      "original_language": "cn",
+      "original_name": "東張西望",
+      "overview": "Scoop is a comprehensive information programme of Television Broadcasts Limited.\n\nThe content of the program is mainly based on entertainment news and personal follow-up of the artists, and will also be interspersed with the latest trends of TVB dramas and artists. Some entertainment news content clips will be rebroadcast on the next day's \"Entertainment Live\".\n\nThis program will be broadcast on Jade Channel from 19:30-20:00 (Hong Kong time) from June 6, 2005, and will be broadcast every day from March 3, 2019, and will be broadcast on myTV (later myTV SUPER) to provide \"Program Review\".",
+      "popularity": 326.923,
+      "poster_path": "/qo6y0XvSBlKM3XCbYVdcR3a6qyQ.jpg",
+      "first_air_date": "2005-06-06",
+      "name": "Scoop",
+      "vote_average": 7.154,
+      "vote_count": 13
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/86JnsgNpTI8XPVGwZhaIPojyyU.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 154770,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "你好，星期六",
+      "overview": "\"Hello, Saturday\" is the rebranding of popular Chinese show \"Happy Camp\", hosted by He Jiong and with a fixed group of regular celebrity members.\n\nThe program showcases the talent of various stars as well as social topics through creative and diverse content and games. It aims to spread positive energy whilst keeping up with the current trends and leading youth culture.",
+      "popularity": 315.784,
+      "poster_path": "/1mUhxebaTKsX9OqJ1gkYpVR9uRa.jpg",
+      "first_air_date": "2022-01-01",
+      "name": "Hello Saturday",
+      "vote_average": 4.5,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kWByUrGgS4mYyvQ2mG95gzblBOj.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        10765
+      ],
+      "id": 106449,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "凡人修仙传",
+      "overview": "A poor and ordinary boy from a village joins a minor sect in Jiang Hu and becomes an Unofficial Disciple by chance. How will Han Li, a commoner by birth, establish a foothold for himself in his sect? With his mediocre aptitude, he must successfully traverse the treacherous path of cultivation and avoid the notice of those who may do him harm. This is a story of an ordinary mortal who, against all odds, clashes with devilish demons and ancient celestials in order to find his own path towards immortality.",
+      "popularity": 302.733,
+      "poster_path": "/gbOBPlIdoNvt4mQRiG0z8gq6r6L.jpg",
+      "first_air_date": "2020-07-25",
+      "name": "A Record of a Mortal's Journey to Immortality",
+      "vote_average": 9.1,
+      "vote_count": 31
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mZsTrylVWYYPkoY793G5G7nBbAa.jpg",
+      "genre_ids": [
+        10764,
+        35
+      ],
+      "id": 70672,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "아는 형님",
+      "overview": "Male celebs play make-believe as high schoolers, welcoming star transfer students every week and engaging in battles of witty humor and slapstick.",
+      "popularity": 299.254,
+      "poster_path": "/2jIi55JtYKJTL1km8qHMuUilOWo.jpg",
+      "first_air_date": "2015-12-05",
+      "name": "Men on a Mission",
+      "vote_average": 7.5,
+      "vote_count": 31
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rAw00EgDQSA89667sgpe4uawCMN.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1021,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Casualty",
+      "overview": "Drama series about the staff and patients at Holby City Hospital's emergency department, charting the ups and downs in their personal and professional lives.",
+      "popularity": 281.187,
+      "poster_path": "/xori6j1eOdXwD5z213t2o8NMcvu.jpg",
+      "first_air_date": "1986-09-06",
+      "name": "Casualty",
+      "vote_average": 5.942,
+      "vote_count": 77
+    }
+  ],
+  "total_pages": 9,
+  "total_results": 169
+}

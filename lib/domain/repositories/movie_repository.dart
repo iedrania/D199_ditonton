@@ -14,4 +14,14 @@ abstract class MovieRepository {
   Future<Either<Failure, String>> removeWatchlist(MovieDetail movie);
   Future<bool> isAddedToWatchlist(int id);
   Future<Either<Failure, List<Movie>>> getWatchlistMovies();
+  Future<Either<Failure, List<Movie>>> getNowAiringShows();
+  Future<Either<Failure, List<Movie>>> getPopularShows();
+  Future<Either<Failure, List<Movie>>> getTopRatedShows();
+  Future<Either<Failure, MovieDetail>> getShowDetail(int id);
+  Future<Either<Failure, List<Movie>>> getShowRecommendations(int id);
+  Future<Either<Failure, List<Movie>>> searchShows(String query);
+  Future<Either<Failure, String>> saveWatchlistShow(MovieDetail movie);
+  Future<Either<Failure, String>> removeWatchlistShow(MovieDetail movie);
+  Future<bool> isAddedToWatchlistShow(int id);
+  Future<Either<Failure, List<Movie>>> getWatchlistShows();
 }

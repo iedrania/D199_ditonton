@@ -126,4 +126,112 @@ class MovieRepositoryImpl implements MovieRepository {
     final result = await localDataSource.getWatchlistMovies();
     return Right(result.map((data) => data.toEntity()).toList());
   }
+
+  @override
+  Future<Either<Failure, List<Movie>>> getNowAiringShows() async {
+    try {
+      final result = await remoteDataSource.getNowAiringShows();
+      return Right(result.map((model) => model.toEntity()).toList());
+    } on ServerException {
+      return Left(ServerFailure(''));
+    } on SocketException {
+      return Left(ConnectionFailure('Failed to connect to the network'));
+    }
+  }
+
+  @override
+  Future<Either<Failure, MovieDetail>> getShowDetail(int id) async {
+    try {
+      final result = await remoteDataSource.getShowDetail(id);
+      return Right(result.toEntity());
+    } on ServerException {
+      return Left(ServerFailure(''));
+    } on SocketException {
+      return Left(ConnectionFailure('Failed to connect to the network'));
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<Movie>>> getShowRecommendations(int id) async {
+    try {
+      final result = await remoteDataSource.getShowRecommendations(id);
+      return Right(result.map((model) => model.toEntity()).toList());
+    } on ServerException {
+      return Left(ServerFailure(''));
+    } on SocketException {
+      return Left(ConnectionFailure('Failed to connect to the network'));
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<Movie>>> getPopularShows() async {
+    try {
+      final result = await remoteDataSource.getPopularShows();
+      return Right(result.map((model) => model.toEntity()).toList());
+    } on ServerException {
+      return Left(ServerFailure(''));
+    } on SocketException {
+      return Left(ConnectionFailure('Failed to connect to the network'));
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<Movie>>> getTopRatedShows() async {
+    try {
+      final result = await remoteDataSource.getTopRatedShows();
+      return Right(result.map((model) => model.toEntity()).toList());
+    } on ServerException {
+      return Left(ServerFailure(''));
+    } on SocketException {
+      return Left(ConnectionFailure('Failed to connect to the network'));
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<Movie>>> searchShows(String query) async {
+    try {
+      final result = await remoteDataSource.searchShows(query);
+      return Right(result.map((model) => model.toEntity()).toList());
+    } on ServerException {
+      return Left(ServerFailure(''));
+    } on SocketException {
+      return Left(ConnectionFailure('Failed to connect to the network'));
+    }
+  }
+
+  @override
+  Future<Either<Failure, String>> saveWatchlistShow(MovieDetail movie) async {
+    try {
+      final result =
+        await localDataSource.insertWatchlistShow(MovieTable.fromEntity(movie));
+      return Right(result);
+    } on DatabaseException catch (e) {
+      return Left(DatabaseFailure(e.message));
+    } catch (e) {
+      throw e;
+    }
+  }
+
+  @override
+  Future<Either<Failure, String>> removeWatchlistShow(MovieDetail movie) async {
+    try {
+      final result =
+        await localDataSource.removeWatchlistShow(MovieTable.fromEntity(movie));
+      return Right(result);
+    } on DatabaseException catch (e) {
+      return Left(DatabaseFailure(e.message));
+    }
+  }
+
+  @override
+  Future<bool> isAddedToWatchlistShow(int id) async {
+    final result = await localDataSource.getShowById(id);
+    return result != null;
+  }
+
+  @override
+  Future<Either<Failure, List<Movie>>> getWatchlistShows() async {
+    final result = await localDataSource.getWatchlistShows();
+    return Right(result.map((data) => data.toEntity()).toList());
+  }
 }

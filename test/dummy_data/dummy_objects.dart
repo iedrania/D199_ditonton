@@ -57,3 +57,57 @@ final testMovieMap = {
   'posterPath': 'posterPath',
   'title': 'title',
 };
+
+final testShow = Movie(
+  adult: false,
+  backdropPath: 'backdropPath',
+  genreIds: [1],
+  id: 1,
+  originalTitle: 'originalName',
+  overview: 'overview',
+  popularity: 1,
+  posterPath: 'posterPath',
+  releaseDate: 'firstAirDate',
+  title: 'name',
+  video: null,
+  voteAverage: 1,
+  voteCount: 1,
+);
+
+final testShowList = [testShow];
+
+final testShowDetail = MovieDetail(
+  adult: false,
+  backdropPath: 'backdropPath',
+  genres: [Genre(id: 1, name: 'Action')],
+  id: 1,
+  originalTitle: 'originalName',
+  overview: 'overview',
+  posterPath: 'posterPath',
+  releaseDate: 'firstAirDate',
+  runtime: 120,
+  title: 'name',
+  voteAverage: 1,
+  voteCount: 1,
+);
+
+final testWatchlistShow = Movie.watchlist(
+  id: 1,
+  title: 'name',
+  posterPath: 'posterPath',
+  overview: 'overview',
+);
+
+final testShowTable = MovieTable(
+  id: 1,
+  title: 'name',
+  posterPath: 'posterPath',
+  overview: 'overview',
+);
+
+final testShowMap = {
+  'id': 1,
+  'overview': 'overview',
+  'posterPath': 'posterPath',
+  'title': 'name',
+};

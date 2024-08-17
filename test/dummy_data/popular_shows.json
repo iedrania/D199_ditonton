@@ -1,0 +1,419 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/uCY1j1YqfDWRbbS7hJwd9szX1sJ.jpg",
+      "genre_ids": [
+        10766,
+        18,
+        35
+      ],
+      "id": 237480,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "No Rancho Fundo",
+      "overview": "",
+      "popularity": 3404.805,
+      "poster_path": "/eONkvEahSQJan1HTzWJKjvaMe29.jpg",
+      "first_air_date": "2024-04-15",
+      "name": "No Rancho Fundo",
+      "vote_average": 4.912,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5ElVEImEPQmLVj1hkRM26rpsDKe.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 242101,
+      "origin_country": [
+        "PT"
+      ],
+      "original_language": "pt",
+      "original_name": "Cacau",
+      "overview": "Cacau is an engaging saga of family secrets, clandestine loves and sacrifices, all sweetened by the irresistible taste of chocolate and the magic of cocoa plantations.",
+      "popularity": 1570.75,
+      "poster_path": "/nNCFBKZ68fmr008moWSzLdu2mUP.jpg",
+      "first_air_date": "2024-01-15",
+      "name": "Cacau",
+      "vote_average": 5.091,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vSrR7pq1wtPw85XpiOrdNcYdtUb.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 239526,
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Sueños de libertad",
+      "overview": "",
+      "popularity": 1363.979,
+      "poster_path": "/95RVeMWMvk97PBW0msryIJC32XD.jpg",
+      "first_air_date": "2024-02-25",
+      "name": "Sueños de libertad",
+      "vote_average": 6.3,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nCXV9ARvIE2Yc9tLg6pBwpPpPld.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 8892,
+      "origin_country": [
+        "PH"
+      ],
+      "original_language": "tl",
+      "original_name": "Pinoy Big Brother",
+      "overview": "The Philippine adaptation of the reality game show \"Big Brother\" features Filipino housemates live together, share their stories and build meaningful relationships as they do tasks and challenges supervised by Big Brother. Every week a nomination is done, and the public decides who gets evicted and eventually become the Big Winner of the program.",
+      "popularity": 2202.407,
+      "poster_path": "/zUva0cs2SOjoxFPpwINbpevzoax.jpg",
+      "first_air_date": "2005-08-21",
+      "name": "Pinoy Big Brother",
+      "vote_average": 3.333,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bEKRyT7WN5TjFKv0JTWI2cyNlak.jpg",
+      "genre_ids": [
+        10766,
+        18
+      ],
+      "id": 223365,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Renascer",
+      "overview": "After making a pact with Jequitibá, José Inocêncio becomes a mythical figure, known as the most successful cocoa farmer in the region. While still young, he wins the heart of Maria Santa. Their intense passion results in four children: José Augusto, José Bento, José Venâncio, and the youngest, João Pedro, who never had the opportunity to know his mother, as she dies while giving birth to him. This tragedy fuels José Inocêncio’s anger, blaming João Pedro for the loss of his great love. Throughout their lives, indifference and resentment mark the relationship between the father and his youngest son. As if the past weren’t enough, years later, the arrival of the mysterious Mariana puts all these emotions to the test when both father and son fall in love with the same woman. This situation reawakens feelings that were either dormant or previously unknown to them.",
+      "popularity": 2084.93,
+      "poster_path": "/kUWvvMkNIf21UUDmHjYw55v6o7C.jpg",
+      "first_air_date": "2024-01-22",
+      "name": "Rebirth",
+      "vote_average": 7.306,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hpZ5VJP1MvQjuFUMORuAoDFAH30.jpg",
+      "genre_ids": [
+        35,
+        10766,
+        10759
+      ],
+      "id": 222289,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Família é Tudo",
+      "overview": "Five half-siblings – Venus, Andromeda, Jupiter, Electra, and Plutao – share the same father, Pedro. Separated by their respective mothers after Pedro's death, the quintet have had few social and intimate interactions since. Years later, now adults, they reunite when their millionaire grandmother disappears on a cruise and is presumed dead. To earn their inheritance, they will have to live and work together for a year in an attempt to bring the family business back to its peak. If they don't succeed, the inheritance will go to their cousin, Hans, who will do anything to get the money from his aunt.",
+      "popularity": 2066.985,
+      "poster_path": "/tDbJuSfVhf3ZnxiJrXlXEALyAz5.jpg",
+      "first_air_date": "2024-03-04",
+      "name": "Família é Tudo",
+      "vote_average": 6.071,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/q2gOWmtelceZGmKdLc08t8M443b.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 242099,
+      "origin_country": [
+        "PT"
+      ],
+      "original_language": "pt",
+      "original_name": "Senhora do Mar",
+      "overview": "",
+      "popularity": 1089.767,
+      "poster_path": "/wy4tkwuoWMGEa5Wi8dCvLVuxBzt.jpg",
+      "first_air_date": "2024-02-05",
+      "name": "Senhora do Mar",
+      "vote_average": 6.714,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4i3iJepkqqH5JJgTNLJdi8ke6ir.jpg",
+      "genre_ids": [
+        10766
+      ],
+      "id": 249010,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "af",
+      "original_name": "Kelders van Geheime",
+      "overview": "Kelders van Geheime (Cellars of Secrets) is a South African, Afrikaans-language telenovela based on the wheeling's and dealings of the community that lives on Soebatskloof (a wine farm in the Cape). The series focuses on three families: the Abrahams, Syster and Marais households. These families will have to stand together, agree (or agree to disagree), and work together to earn their bread and butter – and a glass of wine.",
+      "popularity": 1063.088,
+      "poster_path": "/vf1I0G5jICTstI1EXxb9Oqq80TU.jpg",
+      "first_air_date": "2024-05-06",
+      "name": "Kelders van Geheime",
+      "vote_average": 9.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mLcD1v4sfoa1juOsBat7Vik7wEe.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 248890,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "en",
+      "original_name": "Ready Steady Cook South Africa",
+      "overview": "In Ready Steady Cook, two teams - a Red Tomato and a Green Pepper - compete in a Red Kitchen and a Green Kitchen, together with a South African chef on each side and paired with enthusiastic home cooks, as they are challenged creatively with a mystery bag of ingredients in a 20-minute cook-off.",
+      "popularity": 1014.935,
+      "poster_path": "/30xX4IMbgnMbQwo76xM4BOSokZO.jpg",
+      "first_air_date": "2024-03-18",
+      "name": "Ready Steady Cook South Africa",
+      "vote_average": 1.0,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mu3lEhGovyhKHPJzb7HNYtZUCDT.jpg",
+      "genre_ids": [
+        10766
+      ],
+      "id": 206559,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "af",
+      "original_name": "Binnelanders",
+      "overview": "A South African Afrikaans soap opera. It is set in and around the fictional private hospital, Binneland Kliniek, in Pretoria, and the storyline follows the trials, trauma and tribulations of the staff and patients of the hospital.",
+      "popularity": 992.485,
+      "poster_path": "/v9nGSRx5lFz6KEgfmgHJMSgaARC.jpg",
+      "first_air_date": "2005-10-13",
+      "name": "Binnelanders",
+      "vote_average": 5.632,
+      "vote_count": 72
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "id": 94997,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "House of the Dragon",
+      "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+      "popularity": 1402.636,
+      "poster_path": "/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+      "first_air_date": "2022-08-21",
+      "name": "House of the Dragon",
+      "vote_average": 8.397,
+      "vote_count": 4774
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/f05cmUK9iNrdOBjpWAURCGGvlSd.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 72879,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Demain nous appartient",
+      "overview": "The story revolves around the people of Sète, France. Their lives are punctuated by family rivalries, romance and scenes from daily life, but also by plots involving police investigations, secrets and betrayals.",
+      "popularity": 922.369,
+      "poster_path": "/zMWldNZF0wS3L5XkDVFHxYhclcL.jpg",
+      "first_air_date": "2017-07-17",
+      "name": "Tomorrow Is Ours",
+      "vote_average": 6.2,
+      "vote_count": 59
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bPnzBs4Ka1tZFCsZF3cPkzNjiLC.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 122653,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Gutfeld!",
+      "overview": "Greg Gutfeld examines the news of the day through a satiric lens fused with pop culture.",
+      "popularity": 1761.103,
+      "poster_path": "/9zLuN3MfvTcABYYNJq5PkIG81S5.jpg",
+      "first_air_date": "2021-04-05",
+      "name": "Gutfeld!",
+      "vote_average": 6.0,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3ze0OyZWOITXGAkf4vCNE4CDaSb.jpg",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "id": 252121,
+      "origin_country": [
+        "CO"
+      ],
+      "original_language": "es",
+      "original_name": "Rojo carmesí",
+      "overview": "",
+      "popularity": 908.674,
+      "poster_path": "/dv2z53yGQl61KFq2jfQzTBRqr82.jpg",
+      "first_air_date": "2024-04-16",
+      "name": "Rojo carmesí",
+      "vote_average": 7.36,
+      "vote_count": 25
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1rGfdcrJOzqyBGo0HUa740L2GhX.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 247174,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "El Conde: Amor y Honor",
+      "overview": "A wrongful conviction changes the life of Alejandro Gaitán and separates him from the woman he loves, Mariana Zambrano. After 17 years in jail, he becomes a count with the help of another prisoner and seeks revenge on those who turned on him.",
+      "popularity": 877.211,
+      "poster_path": "/lwcTD8hRx5Ch4sAmjNHmWigkaND.jpg",
+      "first_air_date": "2024-07-01",
+      "name": "El Conde: Amor y Honor",
+      "vote_average": 8.2,
+      "vote_count": 17
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yVjwzHvOKz99fw8QZwa2v0ZiMx3.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 259698,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "私藏浪漫",
+      "overview": "The lobby manager, Tu Xiaoning, who works on the first floor of Huayuan Tower, is in a crucial period of probation. Ji Yuheng, a talented young man working on the seventeenth floor of the tower, is a rising star in the business. They share a common desire to get married as soon as possible, and this is where two parallel lines intersect.\n\nIn Xiaoning's eyes, Yuheng exceeds expectations as a marriage partner. In Yuheng's eyes, the youthful Xiaoning once illuminated his life, and marrying her is his only firm choice. Just as the two muster the courage to establish their marital relationship, Yuheng unexpectedly becomes Xiaoning's superior. These childhood friends from ten years ago, through a twist of fate, find themselves in a dual relationship as colleagues and newlyweds. They work together to explore the meaning of marriage and life.",
+      "popularity": 850.527,
+      "poster_path": "/lZYCmnkgeacIMmVeVsradTDbQZ1.jpg",
+      "first_air_date": "2024-07-31",
+      "name": "You Are My Secret",
+      "vote_average": 6.5,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ohJTnu93hJ0Uonl86Wn3mOSlWXN.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        18
+      ],
+      "id": 91759,
+      "origin_country": [
+        "HK"
+      ],
+      "original_language": "cn",
+      "original_name": "愛·回家之開心速遞",
+      "overview": "Hung Sue Gan starting from the bottom, established his own logistics company, which is now running smoothly. His only concern now are his three daughters. His eldest daughter has immigrated overseas. His second daughter Hung Yeuk Shui has reached the marriageable age, but has no hopes for marriage anytime soon. She is constantly bickering with her younger sister Hung Sum Yue, who is an honour student, over trivial matters, causing their father to not know whether to laugh or cry. Hung Sue Yan, Hung Sue Gan's brother, moves in with the family, temporarily ending his life as a nomadic photographer. He joins Hung Yeuk Shui's company and encounters Ko Pak Fei, the director of an online shop. The two appear to be former lovers, making for lots of laughter. Since Hung Sue Yan moved in, a series of strange events have occurred in the family. Upon investigation, the source is traced to Lung Ging Fung, a promising young man who is the son of department store mogul Lung Gam Wai.",
+      "popularity": 828.025,
+      "poster_path": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
+      "first_air_date": "2017-02-06",
+      "name": "Come Home Love: Lo and Behold",
+      "vote_average": 5.1,
+      "vote_count": 38
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/i8iqYtAy9qcO5RSrA1f6fY1n6SN.jpg",
+      "genre_ids": [
+        10766
+      ],
+      "id": 235484,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "af",
+      "original_name": "Suidooster",
+      "overview": "Suidooster is a South African television soap opera produced by Suidooster Films which revolves around a matriarch, her family, friends and the people of Suidooster, a small shopping and business centre in the fictional Cape Town suburb of Ruiterbosch.",
+      "popularity": 819.109,
+      "poster_path": "/naCgSiacvV685kait6fBvhVhdce.jpg",
+      "first_air_date": "2015-11-16",
+      "name": "Suidooster",
+      "vote_average": 7.588,
+      "vote_count": 17
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aNNCdERgtxTPoYQozcBdEqLkTVV.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 233960,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "小夫妻",
+      "overview": "Unexpected changes bring Zhou Quan and Che Li’s happy ten-year marriage to a standstill, as one is suddenly laid off despite their talent while the other rushes to start a business. Can the two in their thirties get back on track towards a happy life?",
+      "popularity": 782.664,
+      "poster_path": "/oDrp6kHORmo1D6mIyBj17Jl6DEC.jpg",
+      "first_air_date": "2024-07-31",
+      "name": "As Husband As Wife",
+      "vote_average": 9.5,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fHpxJBhGm9XJsESV6kDgSqsPwXf.jpg",
+      "genre_ids": [
+        9648
+      ],
+      "id": 251599,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "孤舟",
+      "overview": "Gu Yizhong, a scion of the Gu family in Suzhou, returns to China after completing his studies in the Architecture Department at the University of Pennsylvania. When the war breaks out, a failed rescue mission to assist his underground party girlfriend exposes all the contacts of the Suzhou underground organization. Falsely framed and accused by the Japanese collaborators, Gu Yizhong is mistaken for a traitor within the party. Unable to prove his innocence, he takes the initiative to infiltrate the Japanese collaborators and eventually becomes an undercover agent in the Suzhou special operations station of the Communist Party.",
+      "popularity": 1737.113,
+      "poster_path": "/1Eg9oZMPAr08CLstTnXvJ98S6iZ.jpg",
+      "first_air_date": "2024-08-06",
+      "name": "A Lonely Hero's Journey",
+      "vote_average": 9.0,
+      "vote_count": 1
+    }
+  ],
+  "total_pages": 8916,
+  "total_results": 178312
+}
