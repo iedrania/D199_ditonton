@@ -1,9 +1,8 @@
-import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/common/utils.dart';
-import 'package:ditonton/presentation/provider/watchlist_show_notifier.dart';
+import 'package:ditonton/presentation/bloc/watchlist_show_bloc.dart';
 import 'package:ditonton/presentation/widgets/show_card_list.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class WatchlistShowsPage extends StatefulWidget {
   static const ROUTE_NAME = '/watchlist-show';
@@ -18,8 +17,8 @@ class _WatchlistShowsPageState extends State<WatchlistShowsPage>
   void initState() {
     super.initState();
     Future.microtask(() =>
-        Provider.of<WatchlistShowNotifier>(context, listen: false)
-            .fetchWatchlistShows());
+        context.read<WatchlistShowsBloc>()
+          ..add(FetchWatchlistShows()));
   }
 
   @override
@@ -29,8 +28,8 @@ class _WatchlistShowsPageState extends State<WatchlistShowsPage>
   }
 
   void didPopNext() {
-    Provider.of<WatchlistShowNotifier>(context, listen: false)
-        .fetchWatchlistShows();
+    context.read<WatchlistShowsBloc>()
+      ..add(FetchWatchlistShows());
   }
 
   @override
@@ -41,25 +40,27 @@ class _WatchlistShowsPageState extends State<WatchlistShowsPage>
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Consumer<WatchlistShowNotifier>(
-          builder: (context, data, child) {
-            if (data.watchlistState == RequestState.Loading) {
+        child: BlocBuilder<WatchlistShowsBloc, WatchlistShowsState>(
+          builder: (context, state) {
+            if (state is WatchlistShowsLoading) {
               return Center(
                 child: CircularProgressIndicator(),
               );
-            } else if (data.watchlistState == RequestState.Loaded) {
+            } else if (state is WatchlistShowsLoaded) {
               return ListView.builder(
                 itemBuilder: (context, index) {
-                  final show = data.watchlistShows[index];
+                  final show = state.shows[index];
                   return ShowCard(show);
                 },
-                itemCount: data.watchlistShows.length,
+                itemCount: state.shows.length,
               );
-            } else {
+            } else if (state is WatchlistShowsError) {
               return Center(
                 key: Key('error_message'),
-                child: Text(data.message),
+                child: Text(state.message),
               );
+            } else {
+              return Text('');
             }
           },
         ),

@@ -1,9 +1,8 @@
 import 'package:ditonton/common/constants.dart';
-import 'package:ditonton/common/state_enum.dart';
-import 'package:ditonton/presentation/provider/show_search_notifier.dart';
+import 'package:ditonton/presentation/bloc/search_shows_bloc.dart';
 import 'package:ditonton/presentation/widgets/show_card_list.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SearchShowPage extends StatelessWidget {
   static const ROUTE_NAME = '/search-show';
@@ -20,9 +19,8 @@ class SearchShowPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextField(
-              onSubmitted: (query) {
-                Provider.of<ShowSearchNotifier>(context, listen: false)
-                    .fetchShowSearch(query);
+              onChanged: (query) {
+                context.read<SearchShowsBloc>().add(OnQueryChanged(query));
               },
               decoration: InputDecoration(
                 hintText: 'Search title',
@@ -36,22 +34,28 @@ class SearchShowPage extends StatelessWidget {
               'Search Result',
               style: kHeading6,
             ),
-            Consumer<ShowSearchNotifier>(
-              builder: (context, data, child) {
-                if (data.state == RequestState.Loading) {
+            BlocBuilder<SearchShowsBloc, SearchShowsState>(
+              builder: (context, state) {
+                if (state is SearchShowsLoading) {
                   return Center(
                     child: CircularProgressIndicator(),
                   );
-                } else if (data.state == RequestState.Loaded) {
-                  final result = data.searchResult;
+                } else if (state is SearchShowsHasData) {
+                  final result = state.result;
                   return Expanded(
                     child: ListView.builder(
                       padding: const EdgeInsets.all(8),
                       itemBuilder: (context, index) {
-                        final show = data.searchResult[index];
+                        final show = result[index];
                         return ShowCard(show);
                       },
                       itemCount: result.length,
+                    ),
+                  );
+                } else if (state is SearchShowsError) {
+                  return Expanded(
+                    child: Center(
+                      child: Text(state.message),
                     ),
                   );
                 } else {
